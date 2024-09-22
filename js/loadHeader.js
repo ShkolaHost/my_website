@@ -1,7 +1,7 @@
 // loadHeader.js
 async function loadHeaderK() {
     try {
-      const headerResponse = await fetch('/includes/header.html');
+      const headerResponse = await fetch('/my_website/includes/header.html');
       if (!headerResponse.ok) {
         throw new Error('Failed to load header: ' + headerResponse.statusText);
       }
@@ -14,7 +14,7 @@ async function loadHeaderK() {
 
   async function loadContactInfo() {
     try {
-      const contactResponse = await fetch('/includes/contact-info.html');
+      const contactResponse = await fetch('my_website/includes/contact-info.html');
       if (!contactResponse.ok) {
         throw new Error('Failed to load contact info: ' + contactResponse.statusText);
       }
@@ -28,7 +28,7 @@ async function loadHeaderK() {
   function loadFavicon() {
     const link = document.createElement('link');
     link.rel = 'icon';
-    link.href = '/pages/favicon.ico';  // Make sure this path is correct
+    link.href = 'my_website/pages/favicon.ico';  // Make sure this path is correct
     link.type = 'image/x-icon';
     document.head.appendChild(link);
 }
