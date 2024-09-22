@@ -1,0 +1,136 @@
+/* Reset for global elements */
+body, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000; /* Ensure the header stays on top of other content */
+}
+
+/* Contact Info Bar */
+.contact-bar {
+  background-color: green; /* Dark background */
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Space between phone and email */
+  align-items: center;
+  padding: 5px 20px; /* Padding for the bar */
+  font-size: 14px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between icon and text */
+}
+
+.contact-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+.contact-item i {
+  font-size: 16px; /* Size of the icon */
+  color: white; /* Icon color */
+}
+
+/* Navigation Menu */
+nav {
+  background-color: purple; /* Slightly lighter background for contrast */
+  padding: 10px 20px; /* Padding inside the nav menu */
+}
+
+ul.menu {
+  list-style-type: none; /* Remove bullet points */
+  display: flex;
+  gap: 15px;
+  margin: 0; /* Remove default margins */
+}
+
+ul.menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+ul.menu li a:hover {
+  background-color: #555; /* Slightly darker background on hover */
+  border-radius: 4px;
+}
+
+/* Dropdown menu styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #575757;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Ensure page content is below the fixed header */
+body {
+  padding-top: 90px; /* Adjust this to match the height of the contact bar and nav */
+}
+
+/* Contact Info Box Styling */
+#contact-info {
+  width: 50vw; /* 50% of the viewport width */
+  background-color: #f9f9f9; /* Light background color */
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  position: relative;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 600px; /* Limit maximum width for larger screens */
+}
+
+#contact-info h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#contact-info p, #contact-info ul li {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+#contact-info a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+#contact-info a:hover {
+  text-decoration: underline;
+}
