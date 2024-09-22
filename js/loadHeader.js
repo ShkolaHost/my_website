@@ -14,7 +14,7 @@ async function loadHeaderK() {
 
   async function loadContactInfo() {
     try {
-      const contactResponse = await fetch('my_website/includes/contact-info.html');
+      const contactResponse = await fetch(/my_website/includes/contact-info.html');
       if (!contactResponse.ok) {
         throw new Error('Failed to load contact info: ' + contactResponse.statusText);
       }
