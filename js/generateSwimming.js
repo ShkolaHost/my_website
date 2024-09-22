@@ -5,9 +5,9 @@ const sections = [
         school: "153 СУ",
         phone: "телефон: 0876 33 05 29",
         teachers: [
-            { name: "Петя Парушева", phone: "0899 121 489", image: "/teacherIcons/IMG_1282.jpg" },
-            { name: "Николай Павлов", phone: "0894 735 254", image: "/teacherIcons/IMG_1282.jpg" },
-            { name: "Емилия Кирилова", phone: "", image: "/teacherIcons/IMG_1282.jpg" }
+            { name: "Петя Парушева", phone: "0899 121 489", image: "/my_website/teacherIcons/IMG_1282.jpg" },
+            { name: "Николай Павлов", phone: "0894 735 254", image: "/my_website/teacherIcons/IMG_1282.jpg" },
+            { name: "Емилия Кирилова", phone: "", image: "/my_website/teacherIcons/IMG_1282.jpg" }
         ]
     },
     {
@@ -15,10 +15,10 @@ const sections = [
         school: "22 СУ",
         phone: "телефон: 0876 33 05 09",
         teachers: [
-            { name: "Анна Иванова", phone: "0899 321 432", image: "/teacherIcons/IMG_1282.jpg" },
-            { name: "Иван Петров", phone: "0894 321 254", image: "/teacherIcons/IMG_1282.jpg" },
-            { name: "Мария Симеонова", phone: "", image: "/teacherIcons/IMG_1282.jpg" },
-            { name: "Георги Георгиев", phone: "0896 732 654", image: "/teacherIcons/IMG_1282.jpg" }
+            { name: "Анна Иванова", phone: "0899 321 432", image: "/my_website/teacherIcons/IMG_1282.jpg" },
+            { name: "Иван Петров", phone: "0894 321 254", image: "/my_website/teacherIcons/IMG_1282.jpg" },
+            { name: "Мария Симеонова", phone: "", image: "/my_website/teacherIcons/IMG_1282.jpg" },
+            { name: "Георги Георгиев", phone: "0896 732 654", image: "/my_website/teacherIcons/IMG_1282.jpg" }
         ]
     },
     {
@@ -26,8 +26,8 @@ const sections = [
         school: "131 СУ(К.Крумова/Т.Сандова)",
         phone: "телефон: 0879 48 72 58",
         teachers: [
-            { name: "Марина Димитрова", phone: "0899 543 789", image: "/teacherIcons/IMG_1282.jpg" },
-            { name: "Кирил Александров", phone: "0894 123 765", image: "/teacherIcons/IMG_1282.jpg" }
+            { name: "Марина Димитрова", phone: "0899 543 789", image: "/my_website/teacherIcons/IMG_1282.jpg" },
+            { name: "Кирил Александров", phone: "0894 123 765", image: "/my_website/teacherIcons/IMG_1282.jpg" }
         ]
     },
     {
@@ -35,9 +35,9 @@ const sections = [
         school: "144 СУ",
         phone: "телефон: 0876 48 75 63",
         teachers: [
-            { name: "Елена Петрова", phone: "0899 987 321", image: "/teacherIcons/IMG_1282.jpg" },
-            { name: "Петър Стойков", phone: "0894 876 543", image: "/teacherIcons/IMG_1282.jpg" },
-            { name: "Снежана Иванова", phone: "", image: "/teacherIcons/IMG_1282.jpg" }
+            { name: "Елена Петрова", phone: "0899 987 321", image: "/my_website/teacherIcons/IMG_1282.jpg" },
+            { name: "Петър Стойков", phone: "0894 876 543", image: "/my_website/teacherIcons/IMG_1282.jpg" },
+            { name: "Снежана Иванова", phone: "", image: "/my_website/teacherIcons/IMG_1282.jpg" }
         ]
     },
     {
@@ -45,10 +45,10 @@ const sections = [
         school: "145 ОУ",
         phone: "телефон: 0876 33 07 62",
         teachers: [
-            { name: "Мариета Павлова", phone: "тел. 0886 522 442", image: "/teacherIcons/IMG_1282.jpg" },
-            { name: "Ангел Бенински", phone: "тел. 0889 323 008", image: "/teacherIcons/IMG_1282.jpg" },
-            { name: "Петър Георгиев", phone: "тел. 0988 908 627", image: "/teacherIcons/IMG_1282.jpg" },
-            { name: "Марина Павлова", phone: "", image: "/teacherIcons/IMG_1282.jpg" }
+            { name: "Мариета Павлова", phone: "тел. 0886 522 442", image: "/my_website/teacherIcons/IMG_1282.jpg" },
+            { name: "Ангел Бенински", phone: "тел. 0889 323 008", image: "/my_website/teacherIcons/IMG_1282.jpg" },
+            { name: "Петър Георгиев", phone: "тел. 0988 908 627", image: "/my_website/teacherIcons/IMG_1282.jpg" },
+            { name: "Марина Павлова", phone: "", image: "/my_website/teacherIcons/IMG_1282.jpg" }
         ]
     },
     {
@@ -56,8 +56,8 @@ const sections = [
         school: "150 ОУ",
         phone: "телефон: 02 9781308 & 0876 33 01 50",
         teachers: [
-            { name: "Елка Фичерова", phone: "тел. 0887 256 357", image: "/teacherIcons/IMG_1282.jpg" },
-            { name: "Надя Стоичкова", phone: "тел. 0896 74 71 58", image: "/teacherIcons/IMG_1282.jpg" }
+            { name: "Елка Фичерова", phone: "тел. 0887 256 357", image: "/my_website/teacherIcons/IMG_1282.jpg" },
+            { name: "Надя Стоичкова", phone: "тел. 0896 74 71 58", image: "/my_website/teacherIcons/IMG_1282.jpg" }
         ]
     }
 ];
